@@ -1,0 +1,50 @@
+.mneu_show {
+  transform: translate3d(898px, 54px, 0px) !important;
+}
+.custom-card {
+  max-width: 90%;
+  margin: 10px auto;
+}
+.custom-header-image {
+  background-size: cover;
+}
+.header_card_parent {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px;
+  width: 100%;
+}
+
+.reply_text {
+  background: #dadada;
+  padding: 10px 13px;
+  border-radius: 5px;
+  color: #504f4f;
+  font-size: 14px;
+}
+.main_text {
+  padding: 5px 5px;
+}
+.mat-form-field {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+.mat-enter {
+  position: absolute;
+  top: 35px;
+  left: -20px;
+  font-size: 16px;
+  color: #676767;
+}
+.cust_hint {
+  font-style: italic;
+}
+.pr-10 {
+  padding-right: 10px !important;
+}
+.avtar_mar {
+  margin-top: 5px;
+  margin-left: 10px;
+}

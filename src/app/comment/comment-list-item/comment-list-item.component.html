@@ -1,0 +1,25 @@
+<mat-card class="custom-card">
+  <mat-card-header>
+    <div mat-card-avatar><img src={{comment.thum}} alt={{comment.name}} class="avtar_mar" mat-card-avatar></div>
+    <div class="header_card_parent">
+      <mat-card-title>
+        <div class="reply_text" *ngFor="let rep of comment.replys; let i=index;">
+          <div *ngIf="comment.replys.length > 0"> <i class="reply_user">Reply to <strong>{{rep.name}}</strong> comment :</i> {{rep.replyText}}</div>
+        </div>
+      </mat-card-title>
+      <mat-card-subtitle class="main_text">{{comment.text}}
+      </mat-card-subtitle>
+    </div>
+    <mat-icon mat-button [matMenuTriggerFor]="menu" class="moreOption">more_vert</mat-icon>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Reply</button>
+      <button mat-menu-item>Edit</button>
+      <button mat-menu-item (click)="onRemoveTodo(comment.id)">Delete</button>
+    </mat-menu>
+  </mat-card-header>
+  <mat-card-actions class="custom_mat_card_action fade_color">
+    <mat-label class="custom_border">{{comment.date}} </mat-label>
+    <mat-label class="custom_border">{{comment.time}}</mat-label>
+    <mat-label class="custom_border">{{comment.name}}</mat-label>
+  </mat-card-actions>
+</mat-card>

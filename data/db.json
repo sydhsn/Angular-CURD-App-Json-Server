@@ -1,0 +1,93 @@
+{
+  "commentsList": [
+    {
+      "id": 1,
+      "name": "Raj Kumar",
+      "text": "I like this article and please send more like this.Hello , i like this article and please send more like this.Hello , i like this article and please send more like this.Hello , i like this article and please send more like this.",
+      "date": "05/05/2019",
+      "time": "4:00 PM",
+      "thum": "assets/images/1.jpeg",
+      "replys": [
+        {
+          "name": "Husain",
+          "date": "05/05/2019",
+          "time": "4:00 PM",
+          "thum": "assets/images/1.jpeg",
+          "replyText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Prem Kumar",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "date": "01/04/2019",
+      "time": "4:00 PM",
+      "thum": "assets/images/1.jpeg",
+      "replys": []
+    },
+    {
+      "id": 3,
+      "name": "Prem Kumar",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "date": "01/04/2019",
+      "time": "4:00 PM",
+      "thum": "assets/images/1.jpeg",
+      "replys": []
+    },
+    {
+      "id": 4,
+      "name": "Prem Kumar",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "date": "01/04/2019",
+      "time": "4:00 PM",
+      "thum": "assets/images/1.jpeg",
+      "replys": []
+    },
+    {
+      "id": 5,
+      "name": "Prem Kumar",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      "date": "01/04/2019",
+      "time": "4:00 PM",
+      "thum": "assets/images/1.jpeg",
+      "replys": []
+    },
+    {
+      "name": "admin",
+      "text": "json-server is fake REST API to test applications. It is very easy to install and use it with few steps. ",
+      "date": "06/05/2019",
+      "time": "1:10 AM",
+      "thum": "assets/images/1.jpeg",
+      "replys": [],
+      "id": 6
+    },
+    {
+      "name": "admin",
+      "text": "Create a db.json file in a directory. In our demo we will perform operations on articles with three fields that are id, title and category. ",
+      "date": "06/05/2019",
+      "time": "1:13 AM",
+      "thum": "assets/images/1.jpeg",
+      "replys": [],
+      "id": 7
+    },
+    {
+      "name": "admin",
+      "text": "Create a db.json file in a directory. In our demo we will perform operations on articles with three fields that are id, title and category. ",
+      "date": "06/05/2019",
+      "time": "1:17 AM",
+      "thum": "assets/images/1.jpeg",
+      "replys": [],
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "name": "Sasha Ho",
+      "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb"
+    }
+  ]
+}

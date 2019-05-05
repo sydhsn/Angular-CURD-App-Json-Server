@@ -1,0 +1,21 @@
+<mat-card class="custom-card">
+  <mat-card-header>
+    <div mat-card-avatar><img src="assets/images/1.jpeg" alt="" class="avtar_mar" mat-card-avatar></div>
+    <div class="header_card_parent">
+      
+      <mat-form-field class="cust_hint" hintLabel="Enter to submit">
+        <mat-icon class="mat-enter">subdirectory_arrow_right</mat-icon>
+        <input matInput #input maxlength="250"  (keyup.enter)="onAdd(input)" placeholder="New Comment" required/>
+        <mat-hint align="end" class="pr-10">{{input.value?.length || 0}}/250 </mat-hint>
+      </mat-form-field>
+      <div *ngIf="!isinputBlank">
+        Please Enter Comment.
+      </div>
+      
+    </div>
+  </mat-card-header>
+</mat-card>
+
+<mat-grid-list cols="1" rowHeight="1:1" *ngFor="let comment of comment">
+  <app-comment-list-item [comment]="comment" (remove)="onRemoveTodo($event)"></app-comment-list-item>
+</mat-grid-list>
